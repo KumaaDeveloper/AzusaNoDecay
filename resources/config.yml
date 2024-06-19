@@ -1,0 +1,21 @@
+# NoDecay Configuration
+
+# Configuration for all leaves so they don't get crushed
+NoDecay-Leaves: true
+AllWorld-NoDecay-Leaves: false
+World-NoDecay-Leaves: ["lobby", "world"]
+
+# Configuration for farmland not to be destroyed
+NoDecay-Farmland: true
+AllWorld-NoDecay-Farmland: false
+World-NoDecay-Farmland: ["lobby", "world"]
+
+# Configuration for farms like wheat, carrot, potato, beetroot so they don't get crushed
+NoDecay-Crops: true
+AllWorld-NoDecay-Crops: false
+World-NoDecay-Crops: ["lobby", "world"]
+
+# Configuration for farms such as wheat seeds, melon seeds, pumpkin seeds, beetroot seeds so that they are not crushed
+NoDecay-Seed: true
+AllWorld-NoDecay-Seed: false
+World-NoDecay-Seed: ["lobby", "world"]

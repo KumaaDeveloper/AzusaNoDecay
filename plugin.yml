@@ -1,0 +1,15 @@
+name: AzusaNoDecay
+version: 1.0.1
+api: [5.0.0]
+main: KumaDev\NoDecay\Main
+author: KumaDeveloper
+description: Plugins that work for leaves and farms cannot be destroyed
+commands:
+  nodecay:
+    description: Toggles AzusaNoDecay functionality on or off
+    usage: "/nodecay [on/off]"
+    permission: nodecay.use
+permissions:
+  nodecay.use:
+    description: Allows the player to toggle AzusaNoDecay functionality
+    default: op
